@@ -27,7 +27,7 @@ app.post("/contact-message", async (req, res) => {
     // Email to YOU
     await resend.emails.send({
       from: "Portfolio Contact <no-reply@resend.dev>",
-      to: "your-email@example.com", // apna email yaha
+      to: "athaarrvv1@gmail.com", // apna email yaha
       subject: `New message from ${fullname}`,
       html: `
         <p><strong>Name:</strong> ${fullname}</p>
